@@ -1,0 +1,24 @@
+body {
+    --text-color: #222;
+    --bkg-color: rgb(220, 222, 228);
+    --input-color: #ffffff;
+    --h1-color: #979bc0;
+    --card-bkg-color: rgb(143, 148, 173);
+  }
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #262c4b;
+    --input-color: #cccccc;
+    --h1-color: #cecfd4;
+    --card-bkg-color: rgb(143, 148, 173);
+  }
+  body {
+    color: var(--text-color);
+    background: var(--bkg-color);
+  }
+  input {
+    background-color: var(--input-color);
+  }
+  h1, h2, h3 {
+      color: var(--h1-color);
+  }
