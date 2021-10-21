@@ -1,5 +1,8 @@
 # counter
-
+## live preview
+```
+https://maciekmatej.github.io/counter/
+```
 ## Project setup
 ```
 yarn install
